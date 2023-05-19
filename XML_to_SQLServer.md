@@ -1,3 +1,4 @@
+ ![tinitiate.com ssis](/images/tiniaitessis.png)
 # 	SSIS XML file import to SQL Server
 
 1. **Create a new SSIS project.**

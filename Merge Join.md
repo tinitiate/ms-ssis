@@ -16,13 +16,13 @@
 
 2. Drag and drop a Data Flow Task onto the Control Flow design surface.
 
-   ![](\images\merge_files_1.png)
+   ![](/images/merge_files_1.png)
 
 3. Double-click the Data Flow Task to switch to the Data Flow tab.
 
 4. Within the Data Flow tab, drag and drop the source components for the two datasets (Flat File Sources) you want to merge join. 
 
-   ![](\images\merge_files_2.png)
+   ![](/images/merge_files_2.png)
 
 5. Configure the source components by providing the necessary connection information and selecting the source files.
 

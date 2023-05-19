@@ -1,3 +1,4 @@
+![tinitiate ssis](/tiniaitessis.png)
 # Data Warehouse data model for Invoicing
 * Schema DDL for invoicing_dw.
 * Table DDL for customer_dim, product_dim, time_dim and invoice_fact.

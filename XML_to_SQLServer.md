@@ -19,19 +19,19 @@
 
    * Click on `Create`.
 
-     ![](images/project_creation.png)
+     ![](/images/xml/project_creation.png)
 
 2. **Add a new data flow task.**
 
    *  To add a new data flow task, , drag and drop the `Data Flow Task` from the `Toolbox` to the `Package` design surface.
 
-     ![](images/data_flow_task.png)
+     ![](/images/xml/data_flow_task.png)
 
 3. **Add an XML source.**
 
    *  To add an XML source, drag and drop the `XML Source` task from the `Toolbox` to the `Data Flow` design surface.
 
-     ![](images/xml_source.png)
+     ![](/images/xml/xml_source.png)
 
 4. **Configure the XML source.**
 
@@ -44,15 +44,15 @@
      
      ```
 
-​		      							![](images/xml_source_configuration.png)
+​		      							![](/images/xml/xml_source_configuration.png)
 
-​									      ![](images/xml_source_configuration_final.png)
+​									      ![](/images/xml/xml_source_configuration_final.png)
 
 5. **Add an OLE DB destination.**
 
    * To add an OLE DB destination, drag and drop the `OLE DB Destination` task from the `Toolbox` to the `Data Flow` design surface.
 
-     ![](images/oledb_destination.png)
+     ![](/images/xml/oledb_destination.png)
 
 6. **Configure the OLE DB destination.**
 

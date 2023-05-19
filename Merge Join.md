@@ -1,3 +1,4 @@
+ ![tinitiate.com ssis](/images/tiniaitessis.png)
 # Merge Join 
 
 * The Merge Join transformation in SQL Server Integration Services (SSIS) is used to combine two sorted datasets based on a common key. 

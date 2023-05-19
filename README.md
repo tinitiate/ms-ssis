@@ -1,4 +1,4 @@
- ![tinitiate.com ssis](tiniaitessis.png)
+ ![tinitiate.com ssis](/images/tiniaitessis.png)
  * * *
 # MS SSIS Introduction
 * SSIS Introduction

@@ -1,4 +1,4 @@
-![tinitiate ssis](/tiniaitessis.png)
+![tinitiate ssis](/images/tiniaitessis.png)
 # Data Warehouse data model for Invoicing
 * Schema DDL for invoicing_dw.
 * Table DDL for customer_dim, product_dim, time_dim and invoice_fact.
@@ -58,4 +58,4 @@ alter table invoicing_dw.invoice_fact add constraint fk_invoice_cust_id foreign 
 alter table invoicing_dw.invoice_fact add constraint fk_invoice_time_id foreign key(time_id) references invoicing_dw.time_dim(time_id);
 alter table invoicing_dw.invoice_fact add constraint fk_invoice_product_id foreign key(product_id) references invoicing_dw.product_dim(product_id);
 ```
-![star schema](/star_schema.png)
+![star schema](/images/star_schema.png)

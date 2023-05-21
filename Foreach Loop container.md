@@ -78,8 +78,8 @@
 
 17. Right Click on the **Row Count** and select **Edit** which will open **Row Count**.
 
-    ![](/images/foreachloop/row_count1.png)
+    ![](/images/foreachloop/row_count_1.png)
 
-    ![](/images/foreachloop/row_count2.png)
+    ![](/images/foreachloop/row_count_2.png)
 
-    ![](/images/foreachloop/row_count3.png)
+    ![](/images/foreachloop/row_count_3.png)

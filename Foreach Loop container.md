@@ -74,7 +74,7 @@
 
 16. Drag and drop an **Row Count** task onto the design surface.
 
-    ![](/images/row_count.png)
+    ![](/images/foreachloop/row_count1.png)
 
 17. Right Click on the **Row Count** and select **Edit** which will open **Row Count**.
 

@@ -1,3 +1,4 @@
+ ![tinitiate.com ssis](/images/tiniaitessis.png)
 # Data Storage
 
 # OLTP (Online Transaction Processing)

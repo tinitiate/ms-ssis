@@ -74,7 +74,7 @@
 
 16. Drag and drop an **Row Count** task onto the design surface.
 
-    ![](/images/foreachloop/row_count1.png)
+    ![](/images/foreachloop/row_count.png)
 
 17. Right Click on the **Row Count** and select **Edit** which will open **Row Count**.
 
@@ -83,3 +83,15 @@
     ![](/images/foreachloop/row_count_2.png)
 
     ![](/images/foreachloop/row_count_3.png)
+
+18. Drag and drop an **OLE DB Destination** task onto the design surface.
+
+    ![](/images/foreachloop/OLEDB-Destination.png)
+
+19. Right Click on the **OLE DB Destination** and select **Edit** which will open **OLE DB Destination Editor**.
+
+​	   ![](/images/foreachloop/OLEDB-Destination-Editor.png)
+
+​	   ![](/images/foreachloop/OLEDB-Destination-Editor_2.png)
+
+20. 

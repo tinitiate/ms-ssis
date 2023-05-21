@@ -72,78 +72,14 @@
 
     ![](/images/flat_file_8.png)
 
-16. In the Foreach Loop container, click the Enumerator tab.
+16. Drag and drop an **Row Count** task onto the design surface.
 
-17. Select the Foreach File Enumerator option.
+    ![](/images/row_count.png)
 
-18. In the Directory field, type the path to the folder that contains the files that you want to process.
+17. Right Click on the **Row Count** and select **Edit** which will open **Row Count**.
 
-19. In the FileSpec field, type a wildcard that specifies the files that you want to process.
+    ![](/images/foreachloop/row_count1.png)
 
-20. Click OK.
+    ![](/images/foreachloop/row_count2.png)
 
-21. 
-
-22. Drag and drop a Flat File Source task onto the design surface.
-
-23. In the Flat File Source task, click the Connection Manager tab.
-
-24. Select the connection manager that you created for the flat file that you want to process.
-
-25. Click OK.
-
-26. Drag and drop a Row Count Task onto the design surface.
-
-27. In the Row Count Task, click the Connection Manager tab.
-
-28. Select the same connection manager that you selected for the Flat File Source task.
-
-29. Click OK.
-
-30. Drag and drop an Oledb Destination task onto the design surface.
-
-31. In the Oledb Destination task, click the Connection Manager tab.
-
-32. Select the connection manager that you created for the SQL Server database that you want to insert the row count into.
-
-33. In the OLEDB Destination Properties dialog box, click the Mappings tab.
-
-34. In the Column Mappings list, select the OLE DB column that you want to map to the Records_Count variable.
-
-35. Click OK.
-
-36. Drag and drop a Logs task onto the design surface.
-
-37. In the Logs task, click the Connection Manager tab.
-
-38. Select the same connection manager that you selected for the Flat File Source task.
-
-39. In the Logs task, click the Script tab.
-
-40. In the Script type drop-down list, select Execute SQL.
-
-41. In the Script text box, type the following expression:
-
-```
-insert into FileInfo values ('@[User::FilePath]', @[User::Records_Count], GETDATE())
-```
-
-1. In the Variables section, click the Add button.
-2. In the Variable Name field, type Records_Count.
-3. In the Variable Value field, type @[User::Records_Count].
-4. Click OK.
-5. Click OK.
-6. Save the SSIS package.
-7. In Object Explorer, right-click the SSIS package and select Deploy.
-8. In the Deploy SSIS Package dialog box, click Next.
-9. In the Target Server drop-down list, select the SQL Server instance that you want to deploy the package to.
-10. In the Package path field, type the path to the SSIS package.
-11. Click Next.
-12. In the Deployment Action drop-down list, select Deploy.
-13. Click Next.
-14. In the Deployment Options section, select the options that you want to use.
-15. Click Next.
-16. In the Review Deployment Results section, review the deployment results.
-17. Click Finish.
-
-The SSIS package will now be deployed to the SQL Server instance. You can then run the package to process the files and insert the row count into the SQL Server database.
+    ![](/images/foreachloop/row_count3.png)

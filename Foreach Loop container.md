@@ -12,7 +12,7 @@
 
 1. Open SSIS Designer.
 
-2. In the SSIS Toolbox, drag and drop a Foreach Loop container onto the design surface.
+2. In the SSIS Toolbox, drag and drop a **Foreach Loop container** onto the design surface.
 
    ![](/images/foreachloop/foreachloop_1.png)
 
@@ -94,4 +94,64 @@
 
 ​	   ![](/images/foreachloop/OLEDB-Destination-Editor_2.png)
 
-20. 
+20. Drag and drop an **Execute SQL Task** onto the design surface and rename the task as **Logs** and Connect the **Load Data** and **Logs** Task.
+
+    ![](/images/foreachloop/foreachloop_10.png)
+
+21. Right Click on the  **Execute SQL Task** and select **Edit** which will open **Execute SQL Task Editor**.
+
+    ![](/images/foreachloop/foreachloop_11.png)
+
+22. Select the Existing connection, if no connections are available create a new connection.
+
+    ![](/images/foreachloop/foreachloop_12.png)
+
+23. Go to the Expressions tab on the **Execute SQL Task Editor** and click on the three dots and follow the instructions in the images below. 
+
+    ![](/images/foreachloop/foreachloop_13.png)
+
+    ![](/images/foreachloop/foreachloop_14.png)
+
+    ![](/images/foreachloop/foreachloop_15.png)
+
+    ![](/images/foreachloop/foreachloop_16.png)
+
+    ![](/images/foreachloop/foreachloop_17.png)
+
+    ![](/images/foreachloop/foreachloop_18.png)
+
+24. Right Click on the  **Foreach Loop container**  and select **Edit** which will open **Foreach Loop Editor**.
+
+    ![](/images/foreachloop/foreachloop_19.png)
+
+25. On the **Foreach Loop Editor** click on the **Collection** tab and Select the **Folder** of the Source Files by clicking on **Browse**
+
+    ![](/images/foreachloop/foreachloop_20.png)
+
+    ![](/images/foreachloop/foreachloop_21.png)
+
+26. On the **Foreach Loop Editor** click on the **Variable Mappings** tab and Select the **Variable**  `User:FilePath` and click **OK**
+
+27. Right click on the **Connection Manager** and select **Properties**
+
+    ![](/images/foreachloop/Connection_manager_properties.png)
+
+28. On the **Properties** Under the **Expressions** select the three dots, it will open the **Property Expressions Editor**
+
+    ![](/images/foreachloop/Connection_manager_properties_1.png)
+
+29. On the **Property Expressions Editor** select the Property **Connection String** and select the select the three dots, it will open the **Expression Builder**
+
+    ![](/images/foreachloop/Connection_manager_properties_2.png)
+
+30. On the **Expression Builder** expand the variables and Parameters and select the `User:FilePath` and click Evaluate Expression.
+
+    ![](/images/foreachloop/Connection_manager_properties_3.png)
+
+    ![](/images/foreachloop/Connection_manager_properties_4.png)
+
+31. We should see the **Evaluated Value** as the File we selected, once we verify the path click **OK** on both **Expression Builder** and  **Property Expressions Editor** .
+
+    ![](/images/foreachloop/Connection_manager_properties_5.png)
+
+    ![](/images/foreachloop/Connection_manager_properties_6.png)

@@ -1,4 +1,5 @@
-## Normalization
+ ![tinitiate.com ssis](/images/tiniaitessis.png)
+# Normalization
 
 - Normalization is the process of designing a database schema to minimize redundancy and improve data integrity.
 - It involves decomposing a database into multiple related tables, ensuring each table has a well-defined purpose and follows specific normalization rules.

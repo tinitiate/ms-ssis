@@ -57,10 +57,14 @@
      ![Data_Flow](/images/flat_file_3.png)
 
    - Specify the CSV file path in the "File name" field.
+     ![Data_Flow](/images/flat_file_4.png)
+     ![Data_Flow](/images/flat_file_5.png)
+     ![Data_Flow](/images/flat_file_6.png)
 
-   - Configure the delimiter and text qualifier settings according to your CSV file.
+   - Configure the delimiter and text qualifier settings according to your CSV file.     
 
    - Click on "Columns" to define the columns by mapping them to the corresponding columns in the CSV file.
+     ![Data_Flow](/images/flat_file_7.png)
 
 6. Drag and drop a Data Conversion Task onto the design surface.
 

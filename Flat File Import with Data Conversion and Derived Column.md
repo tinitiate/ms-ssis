@@ -81,7 +81,7 @@
    - In the Data Conversion Transformation Editor, click on "Input Columns" and select the columns that need conversion.
    - Specify the desired data types for the selected columns in the "Output Alias" column.
    - Configure the data conversion settings as per your requirements.
-   -  ![Data_Flow](/images/flat_file_dataconversion_derived/data_conversion_3.png)
+   -  ![Data_Flow](/images/flat_file_dataconversion_derived/data_conversion_2.png)
 
 9. Drag and drop a Derived Column Task onto the design surface.
 

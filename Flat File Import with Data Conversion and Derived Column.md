@@ -81,15 +81,17 @@
    - In the Data Conversion Transformation Editor, click on "Input Columns" and select the columns that need conversion.
    - Specify the desired data types for the selected columns in the "Output Alias" column.
    - Configure the data conversion settings as per your requirements.
-   -  ![Data_Flow](/images/flat_file_dataconversion_derived/data_conversion_2.png)
+     ![Data_Flow](/images/flat_file_dataconversion_derived/data_conversion_2.png)
 
 9. Drag and drop a Derived Column Task onto the design surface.
 
    - Drag the Derived Column Task from the SSIS Toolbox and drop it onto the Data Flow tab.
+     ![Data_Flow](/images/flat_file_dataconversion_derived/oledb_destination.png)
 
 10. Connect the Data Conversion Task to the Derived Column Task.
 
 - Click on the green arrow icon on the Data Conversion Task and drag it to the Derived Column Task.
+  ![Data_Flow](/images/flat_file_dataconversion_derived/oledb_destination_1.png)
 
 1. Double-click the Derived Column Task to configure it.
    - In the Derived Column Transformation Editor, click on "Derived Column Name" and specify a name for the derived column.

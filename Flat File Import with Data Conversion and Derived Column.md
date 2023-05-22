@@ -86,24 +86,31 @@
 9. Drag and drop a Derived Column Task onto the design surface.
 
    - Drag the Derived Column Task from the SSIS Toolbox and drop it onto the Data Flow tab.
-     ![Data_Flow](/images/flat_file_dataconversion_derived/oledb_destination.png)
+     ![Data_Flow](/images/flat_file_dataconversion_derived/data_conversion_3.png)
 
 10. Connect the Data Conversion Task to the Derived Column Task.
 
 - Click on the green arrow icon on the Data Conversion Task and drag it to the Derived Column Task.
-  ![Data_Flow](/images/flat_file_dataconversion_derived/oledb_destination_1.png)
+  ![Data_Flow](/images/flat_file_dataconversion_derived/data_conversion_4.png)
 
-1. Double-click the Derived Column Task to configure it.
+11. Double-click the Derived Column Task to configure it.
    - In the Derived Column Transformation Editor, click on "Derived Column Name" and specify a name for the derived column.
    - Define the expression for the derived column by clicking on "Expression" and specifying the required transformation logic.
-2. Drag and drop an OLE DB Destination component onto the design surface.
+     ![Data_Flow](/images/flat_file_dataconversion_derived/data_conversion_5.png)
+12. Drag and drop an OLE DB Destination component onto the design surface.
    - Drag the OLE DB Destination from the SSIS Toolbox and drop it onto the Data Flow tab.
-3. Connect the Derived Column Task to the OLE DB Destination.
+     ![Data_Flow](/images/flat_file_dataconversion_derived/oledb_destination.png)
+13. Connect the Derived Column Task to the OLE DB Destination.
    - Click on the green arrow icon on the Derived Column Task and drag it to the OLE DB Destination.
-4. Double-click the OLE DB Destination to configure it.
+     ![Data_Flow](/images/flat_file_dataconversion_derived/oledb_destination_1.png)
+14. Double-click the OLE DB Destination to configure it.
    - In the OLE DB Destination Editor, click on "Connection Manager" and select the appropriate OLE DB Connection Manager or create a new one by clicking "New...".
+     ![Data_Flow](/images/flat_file_dataconversion_derived/oledb_destination_2.png)
+     ![Data_Flow](/images/flat_file_dataconversion_derived/oledb_destination_3.png)
    - Choose the destination table or view where the CSV data will be loaded.
+     ![Data_Flow](/images/flat_file_dataconversion_derived/oledb_destination_4.png)
    - Map the input columns from the Derived Column Task to the destination columns in the OLE DB Destination.
-5. Save and close the Data Flow tab.
-6. Execute the SSIS package to load the CSV data into the OLE DB destination.
-   - Right-click on the Control Flow tab and select "Execute Package" to run the package.
+     ![Data_Flow](/images/flat_file_dataconversion_derived/oledb_destination_5.png)
+15. Save and close the Data Flow tab.
+16. Execute the SSIS package to load the CSV data into the OLE DB destination.
+    ![Data_Flow](/images/Execute_package.png)

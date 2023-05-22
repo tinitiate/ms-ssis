@@ -46,7 +46,7 @@
 
    - Drag the Flat File Source from the SSIS Toolbox and drop it onto the Data Flow tab.
 
-     ![Data_Flow](/images/flat_file_1.png)
+     ![Data_Flow](/images/flat_file.png)
 
 5. Double-click the Flat File Source to configure it.
 

@@ -66,13 +66,15 @@
    - Click on "Columns" to define the columns by mapping them to the corresponding columns in the CSV file.
      ![Data_Flow](/images/flat_file_7.png)
 
-6. Drag and drop a Data Conversion Task onto the design surface.
+6. Drag and drop a Data Conversion Task onto the design surface. 
 
    - Drag the Data Conversion Task from the SSIS Toolbox and drop it onto the Data Flow tab.
+     ![Data_Flow](/images/data_conversion.png)
 
 7. Connect the Flat File Source to the Data Conversion Task.
 
    - Click on the green arrow icon on the Flat File Source and drag it to the Data Conversion Task.
+     ![Data_Flow](/images/data_conversion_1.png)
 
 8. Double-click the Data Conversion Task to configure it.
 

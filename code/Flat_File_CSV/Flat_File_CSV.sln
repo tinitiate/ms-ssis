@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Flat_File_CSV", "Flat_File_CSV\Flat_File_CSV.dtproj", "{91F3F713-CDFB-4658-8163-CA5F44B59C92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91F3F713-CDFB-4658-8163-CA5F44B59C92}.Development|Default.ActiveCfg = Development
+		{91F3F713-CDFB-4658-8163-CA5F44B59C92}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B510362-FE51-4D63-B4FB-582FE5BF8455}
+	EndGlobalSection
+EndGlobal

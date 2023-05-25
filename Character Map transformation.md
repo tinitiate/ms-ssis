@@ -27,9 +27,13 @@
     ![character-map](/images/character_map/character-map-2.png) 
 13. Double click the **Character Map** to open the **Character Map Transform Editor**.
 14. Select the "AddressLine1" collumn from the input columns and in the **Destination** slect `In-place change` and in the **Operation** select the `Lowercase` and click **OK**
+
     ![character-map](/images/character_map/character-map-3.png) 
+    
 15. Select the "City" collumn from the input columns and in the **Destination** slect `New Column` and in the **Operation** select the `UpperCase` and click **OK**
+
     ![character-map](/images/character_map/character-map-4.png) 
+    
 16. Verify the Transformaion and click **OK**
     ![character-map](/images/character_map/character-map-5.png) 
 17. Drag and Drop the **Flat File Destination** onto the design surface.

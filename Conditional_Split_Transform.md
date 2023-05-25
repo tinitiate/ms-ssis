@@ -1,4 +1,5 @@
  ![tinitiate.com ssis](/images/tiniaitessis.png)
+ 
 # Conditional Split Transformation
 * The Conditional Split transform in SSIS (SQL Server Integration Services) is a data transformation component that allows you to split data rows based on specified conditions. 
 * It routes the rows to different output paths based on the evaluation of these conditions.
@@ -8,7 +9,9 @@
 ## Steps to Split the data of Flat File Source to Multiple Flat File Destinations using **Conditional Split**.
 1.  Open SSIS Designer.
 2.  In the SSIS Toolbox, drag and drop a **Data Flow Task** onto the design surface.
+
      ![Data Flow Task](/images/Data_Flow.png)
+     
 3.  Double click the **Data Flow Task** to go to **Data Flow** Tab.
 4.  Drag and Drop the **Flat File Source** onto the design surface.
 

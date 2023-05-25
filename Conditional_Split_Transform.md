@@ -55,7 +55,7 @@
 
     ![character-map](/images/conditional_split/image-12.png) 
     
-16. Repeat the same step for Second **Flat File Destination** and in the `Input Output Selection` select **Male** from ouput drop down.
+16. Repeat the step 15 for Second **Flat File Destination** and in the `Input Output Selection` select **Male** from ouput drop down.
 17. It should look this after the connections.
     
    ![character-map](/images/conditional_split/image-13.png) 

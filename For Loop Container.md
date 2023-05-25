@@ -75,7 +75,7 @@
 
     ![Sql Task](/images/forloop/forloop_11.png)
 
-7. On the **Enter SQL Query** window, enter the command shown in the image and Click **OK**.
+7. On the **Enter SQL Query** window, enter the command `Select MAX(TerritoryID) from Customer_territory ct ` and Click **OK**.
 
    ![Sql Task](/images/forloop/forloop_12.png)
 
@@ -128,7 +128,8 @@
 
     ![Sql Task](/images/forloop/forloop_22.png)
 
-19. On the **SQL command test** enter the command show in the image and Click on **Parameters**
+19. On the **SQL command text** enter the command `SELECT  * from Customer_territory ct 
+where TerritoryID = ?` and Click on **Parameters**
 
     ![Sql Task](/images/forloop/forloop_23.png)
 

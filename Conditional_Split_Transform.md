@@ -11,14 +11,19 @@
      ![Data Flow Task](/images/Data_Flow.png)
 4.  Double click the **Data Flow Task** to go to **Data Flow** Tab.
 5.  Drag and Drop the **Flat File Source** onto the design surface.
+
     ![OLE DB Source](/images/conditional_split/image-2.png) 
+    
+    
 6.  Right click on the **Flat File** and select **Edit**
+
     ![OLE DB Source](/images/conditional_split/image-3.png) 
+    
 7.  On the **Flat File Source Editor** click **New** for the connection manager.
     ![OLE DB Source](/images/conditional_split/image-4.png) 
 8.  On the **Flat File Connection Manager Editor** `Change the Connection Manager Name` Select the file you want by clicking browse and select the **Columns Names in the first data row**.
 
-    ![OLE DB Source](/images/conditional_split/OLEDB_Source-3.png)
+    ![OLE DB Source](/images/conditional_split/image-5.png)
     
 9.  On the **OLE DB Source Editor** Select the **Table or view** in the **Data access mode** drop down and select the table we want to work with.
     ![OLE DB Source](/images/conditional_split/OLEDB_Source-4.png)  

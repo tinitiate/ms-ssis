@@ -8,6 +8,26 @@
 
 * The Foreach File enumerator is an enumerator that allows you to iterate over the files in a folder.
 
+## Containers 
+
+### **Scope Management**
+
+*  Containers allow you to define a specific scope for a group of tasks. 
+* This helps in organizing and managing the execution of tasks within that scope.
+
+### **Repeating Control Flows**
+
+* Containers support repeating control flows within SSIS packages. 
+* We can use looping containers like **For Loop** or **Foreach Loop** to iterate over a collection or repeat a set of tasks based on specific conditions.
+
+### **Unit of Work**
+
+* Containers enable you to group tasks into meaningful units of work. 
+* By organizing tasks within containers, you can improve the clarity and maintainability of your SSIS package.
+* Each container represents a logical grouping of related tasks, making it easier to understand and manage the package's functionality.
+
+
+
 ## Example
 
 1. Open SSIS Designer.

@@ -5,7 +5,25 @@
 * The Foreach Loop container is a control flow container that allows you to iterate over a collection of items and perform tasks for each item in the collection. 
 * It provides a looping mechanism based on enumerators.
 
+## Key features of the Foreach Loop Container
+- **Purpose**: The Foreach Loop Container is used when you need to perform a set of tasks repeatedly for each item in a collection, such as files in a directory or rows in a result set.
 
+- **Collection and Enumerator**: The Foreach Loop Container requires a collection to iterate over. It supports various types of enumerators, including:
+
+    - **Foreach File Enumerator**: Iterates over files in a specified directory.
+    - **Foreach ADO Enumerator**: Iterates over rows in a result set from a database query.
+    - **Foreach Item Enumerator**: Iterates over a manually defined list of items.
+    - **Foreach NodeList Enumerator**: Iterates over XML nodes.
+    - **Foreach From Variable Enumerator**: Iterates over a collection stored in a variable.
+- **Variable Mapping**: The Foreach Loop Container uses variables to store the values from each iteration. You can map variables to capture the current item being processed, the index of the current iteration, and any other necessary data.
+
+- **Task Execution**: Within the Foreach Loop Container, you can define a set of tasks that will be executed for each item in the collection. These tasks can perform operations such as data transformations, file processing, or database operations.
+
+- **Expressions and Evaluators**: The Foreach Loop Container allows you to use expressions to dynamically configure properties and expressions for the tasks within the container. You can use variables and expressions to control the behavior of the loop and the tasks being executed.
+
+- **Event Handling**: The Foreach Loop Container provides event handlers that allow you to capture and handle specific events that occur during the loop execution, such as when an item starts or completes processing.
+
+- **Nested Containers**: The Foreach Loop Container supports nesting, meaning you can place other containers or tasks within it to create more complex looping scenarios.
 
 
 ## Example

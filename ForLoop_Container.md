@@ -1,16 +1,35 @@
  ![tinitiate.com ssis](/images/tiniaitessis.png)
 
-## For Loop Container
+# For Loop Container
 
 * The Loop Container in SSIS provides looping functionality, allowing you to repeat a set of tasks or operations based on a defined condition. 
 * It is useful when you need to perform iterative tasks or process multiple items in a repetitive manner.
 * The Loop Container is commonly used when you need to process files, perform calculations on multiple data sets, or execute a set of tasks repetitively.
 
-### Key features of the Loop Container
+## Key features of the Loop Container
 
 - Loop Condition: We define a condition that determines whether the loop will continue or exit. The loop iterates until the condition evaluates to false.
 - Precedence Constraints: We can configure precedence constraints to control the flow of execution within the Loop Container, defining the tasks that should be executed before or after the loop.
 - Variable Usage: Variables can be utilized within the Loop Container to store and manipulate values during each iteration of the loop.
+
+## Containers 
+
+### **Scope Management**
+
+*  Containers allow you to define a specific scope for a group of tasks. 
+* This helps in organizing and managing the execution of tasks within that scope.
+
+### **Repeating Control Flows**
+
+* Containers support repeating control flows within SSIS packages. 
+* We can use looping containers like **For Loop** or **Foreach Loop** to iterate over a collection or repeat a set of tasks based on specific conditions.
+
+### **Unit of Work**
+
+* Containers enable you to group tasks into meaningful units of work. 
+* By organizing tasks within containers, you can improve the clarity and maintainability of your SSIS package.
+* Each container represents a logical grouping of related tasks, making it easier to understand and manage the package's functionality.
+
 
 ## Execute SQL Task
 
@@ -25,7 +44,7 @@
 - Error Handling: It provides options to handle errors during SQL execution, such as capturing errors, redirecting error rows, or specifying actions for different error scenarios.
 - The Execute SQL Task is commonly used for tasks such as executing data manipulation statements (e.g., INSERT, UPDATE, DELETE), retrieving data, creating or modifying database objects, and calling stored procedures.
 
-## Steps to Loop through the Table and Export the Data to CSV Files
+## Steps to Loop through the Table and Export the Data to CSV Files using **For Loop**
 
 1. Open SSIS Designer.
 

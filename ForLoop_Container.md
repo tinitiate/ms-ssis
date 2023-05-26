@@ -8,27 +8,22 @@
 
 ## Key features of the Loop Container
 
-- Loop Condition: We define a condition that determines whether the loop will continue or exit. The loop iterates until the condition evaluates to false.
-- Precedence Constraints: We can configure precedence constraints to control the flow of execution within the Loop Container, defining the tasks that should be executed before or after the loop.
-- Variable Usage: Variables can be utilized within the Loop Container to store and manipulate values during each iteration of the loop.
+- Purpose: The For Loop Container is used in SSIS to repeat a set of tasks based on a specified condition or iteration count. It provides looping functionality within the control flow of an SSIS package.
 
-## Containers 
+- Control Flow Structure: The For Loop Container acts as a control flow structure similar to the Sequence Container. However, instead of executing tasks sequentially, it repeats the contained tasks until a specific     condition is met or a specified number of iterations are completed.
 
-### **Scope Management**
+- Looping Options: The For Loop Container provides different looping options:
 
-*  Containers allow you to define a specific scope for a group of tasks. 
-* This helps in organizing and managing the execution of tasks within that scope.
+- Predefined Count: You can specify a fixed number of iterations to repeat the contained tasks.
+- Expression-Based Condition: You can define an expression that evaluates a Boolean condition. The tasks within the container will be repeated until the condition evaluates to False.
+- Enumerator: You can use an enumerator, such as the Foreach Loop Enumerator, to iterate over a collection, such as files in a directory or rows in a result set.
+- Variable Usage: The For Loop Container often utilizes variables to control the looping behavior. Variables can be used to track the current iteration count, store the result of an expression-based condition, or hold values from the enumerator.
 
-### **Repeating Control Flows**
+- Task Execution and Precedence Constraints: The tasks within the For Loop Container are executed in a sequential order defined by precedence constraints. These constraints determine the execution flow between the tasks and provide flexibility in designing the workflow within the loop.
 
-* Containers support repeating control flows within SSIS packages. 
-* We can use looping containers like **For Loop** or **Foreach Loop** to iterate over a collection or repeat a set of tasks based on specific conditions.
+- Incrementing/Decrementing Variables: In cases where a fixed number of iterations is specified, the For Loop Container typically uses variables to increment or decrement a counter value to track the progress of the loop.
 
-### **Unit of Work**
-
-* Containers enable you to group tasks into meaningful units of work. 
-* By organizing tasks within containers, you can improve the clarity and maintainability of your SSIS package.
-* Each container represents a logical grouping of related tasks, making it easier to understand and manage the package's functionality.
+- Nested Containers: The For Loop Container can be nested within other containers or even within itself, enabling complex looping scenarios and nested iterations.
 
 
 ## Execute SQL Task

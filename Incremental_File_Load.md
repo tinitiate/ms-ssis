@@ -53,7 +53,7 @@
 
    
 
-   ![](/images/incremental_file_load/image-1)
+   ![](/images/incremental_file_load/image-1.png)
 
    
 

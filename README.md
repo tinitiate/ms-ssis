@@ -2,32 +2,51 @@
  * * *
 # MS SSIS Introduction
 * SSIS Introduction
-* Components of SSIS
-* Sources Targets Control flow
+* Architecture and Components of SSIS
+* Packages
+* Sources
+  * CSV
+  * JSON
+  * Parquet
+  * DB Tables
+  * DB Views
+  * DB SQL Statements
+* Targets
+  * CSV
+  * JSON
+  * Parquet
+  * DB Tables
+  * DB Views
+  * DB SQL Statements
+* SSIS Transformations
+  * Union All
+  * Sort
+  * Multicast
+  * Merge Join
+  * Merge
+  * Lookup
+  * Derived column
+  * Data Conversion
+  * Type Casting Copy Column
+  * Group by
+  * pivot
+* Control Flow Tasks
+  * Containers
+  * Sequence
+  * for loop
+  * for each loop Event Handlers
 * Common Tasks Containers Data Flow
 * Parameters Event Handlers Execution
 * Precedence Constraint Variables Expressions
-* SSIS Transformations
-    * Derived column
-    * Type Casting Copy Column
-    * sort
-    * Merge
-    * Group by
-    * pivot
-    * multicast
-    * Control Flow Tasks
-        * Containers
-        * Sequence
-        * for loop
-        * for each loop Event Handlers
+* Event Handlers
 * Execute Package Task 
     * (Parent - Child Package)
     * Blocking 
     * Non Blocking
     * Semi Blocking
 * Performance Improvement
+* Logging
 * SSIS Catalog (Deployment) Sql Server Agent (Schedule Jobs)
-
 * * *
 * FTP Site Files to SQL Server
 * BLOB Files to SQL Server **
